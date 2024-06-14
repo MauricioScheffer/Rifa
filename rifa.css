@@ -1,0 +1,163 @@
+/* GENERAL STYLIZATION */
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    -webkit-font-smoothing: antialiased;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-size: cover;
+}
+
+/* HEADER */
+.header{
+    font-size: 24px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+/* CONTAINER */
+.container{
+    text-align: center;
+    width: 700px;
+    padding: 40px;
+    margin: 30px auto;
+    border: 2px white solid;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+/* FORM => INPUT, BUTTON, LABEL */
+.container form{
+  margin-bottom: 12px;
+}
+
+.container form input,
+.container form button{
+    border: none;
+    outline: none;
+    border-radius: 15px;
+}
+
+.container form label{
+    font-size: 19px;
+}
+
+.container form input{
+    height: 50px;
+    padding: 0 15px;
+    border: 1px solid #999;
+    font-size: 17px;
+}
+
+.container form input:focus {
+    border: 2px solid rgb(115, 28, 152);
+    padding: 0 14px;
+}
+
+/* BUTTON STYLING */
+.container button {
+    height: 52px;
+    background: rgb(115, 28, 152);
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    padding: 0px 20px;
+    transition: all 0.3s ease;
+}
+
+.container button:hover{
+    background: transparent;
+    color: rgb(115, 28, 152);
+    border: 2px solid rgb(115, 28, 152);
+}
+
+.btn-voltar {
+    margin: -10px auto;
+    margin-left: 60vh;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    height: 48px;
+    padding: 0px 20px;
+    background: rgb(115, 28, 152);
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-voltar:hover{
+    background: #fff;
+    color: rgb(115, 28, 152);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+
+/* RIFA BOXES */
+.caixa_1{
+    text-align: left;
+    padding-bottom: 40px;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.caixa_2{
+    border: 2px black;
+    border-style: solid dotted solid solid;
+    border-radius: 12px;
+}
+
+.caixa_2 h4{
+    text-align: center;
+}
+
+.caixa_2 img{
+    position: relative;
+}
+
+.caixa_3{
+    border: 2px black;
+    border-style: solid solid solid none;
+    border-radius: 12px;
+}
+
+/* FOOTER */
+.footer {
+    background: transparent;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    position: 10px 0;
+    margin-top: 60vh;
+}
+
+/* CONTAINER BACKGROUND */
+.container-fluid{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: #FFF;
+}
+
+/* ANIMATION BACKGROUND */
+.background {
+  background: linear-gradient(132deg, purple, #d1cdd5, #950dd9);
+  background-size: 400% 400%;
+  animation: Gradient 15s ease infinite;
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  padding:0;
+  margin:0px;
+}
+ 
